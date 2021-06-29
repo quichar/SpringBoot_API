@@ -27,6 +27,13 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+<dependency>
+   <groupId>org.projectlombok</groupId>
+   <artifactId>lombok</artifactId>
+   <optional>true</optional>
+   <version>1.18.8</version>
+</dependency>
 		
 				<!-- https://mvnrepository.com/artifact/org.apache.tomcat/tomcat-jasper -->
 		<dependency>
@@ -34,6 +41,8 @@
 		    <artifactId>tomcat-jasper</artifactId>
 		    <version>9.0.14</version>
 		</dependency>
+		
+		
 		
 	</dependencies>
 

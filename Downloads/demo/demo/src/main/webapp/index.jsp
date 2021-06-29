@@ -8,8 +8,8 @@
 </head>
 <body>
 <form action="calculate">
-	Enter Parcel Weight :<input type ="number" name="kg"><br>
-	<input type="submit" value="Check Parcel Price">
+	Enter Parcel Weight :<input type ="number" name="kg" required /><br>
+	<input type="submit" value="Check Parcel Price" />
 	<br>
 	
 </form>

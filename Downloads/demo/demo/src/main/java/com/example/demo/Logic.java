@@ -4,7 +4,7 @@ public class Logic {
 	int cost=0;
 	String costString;
 	public String compute(int weight){
-		if(weight<6) {
+		if(weight<6 && weight>-1) {
 			cost = weight*10; 
 			}else if(weight>4 && weight<11) {
 			cost = weight*20; 	
@@ -18,4 +18,5 @@ public class Logic {
 			
 			return "Php "+costString;
 	}
+
 }

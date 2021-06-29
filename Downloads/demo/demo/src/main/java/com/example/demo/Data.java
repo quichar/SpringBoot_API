@@ -10,5 +10,4 @@ public int getWeight() {
 public void setWeight(int weight) {
 	this.weight = weight;
 }
-
 }
