@@ -4,7 +4,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Service;
 
 @Service
-public class Logic implements Response{
+public class LogicService implements LogicServiceImpl{
 	int cost=0;
 	String costString;
 	

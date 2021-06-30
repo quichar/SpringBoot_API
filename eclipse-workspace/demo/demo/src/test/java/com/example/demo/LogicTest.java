@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 class LogicTest {
 
 
-	Logic logic = new Logic();
+	LogicService logic = new LogicService();
 	Data data = new Data();
 	@Test
 	public void initialValue(){

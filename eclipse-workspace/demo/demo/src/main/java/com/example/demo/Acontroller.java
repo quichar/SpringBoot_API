@@ -8,13 +8,15 @@ import org.springframework.web.bind.annotation.RestController;
 	@RestController
 	public class Acontroller {
 		@Autowired
-		Response response;
+		LogicServiceImpl logic;
+		Data data;
+		ParcelCostResponse response;
 			
 		@GetMapping("/")
-		public String getParcel(@RequestParam(value="weight",defaultValue="0")int weight){	
-			 Data data = new Data();
-			 data.setWeight(weight);
+		public ParcelCostResponse getParcel(@RequestParam(value="weight",defaultValue="0")int weight){	
+			data.setWeight(weight);
+		    response.setCost(logic.compute(data.getWeight()));
 
-		 return  response.compute(data.getWeight());
+		 return response;
 		}
 	}
