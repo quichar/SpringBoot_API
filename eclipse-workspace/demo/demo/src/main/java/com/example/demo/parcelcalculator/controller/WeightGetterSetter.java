@@ -1,9 +1,7 @@
-package com.example.demo;
+package com.example.demo.parcelcalculator.controller;
 
-import org.springframework.stereotype.Service;
 
-@Service
-public class Data{
+public class WeightGetterSetter{
 int weight;
 
 public int getWeight() {
